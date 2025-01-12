@@ -1,0 +1,1 @@
+This bug occurs when using Expo's `Linking` API to open a URL in a custom scheme.  The `Linking.openURL` method fails silently if the app that handles the custom URL scheme isn't installed.  There's no error thrown, making debugging difficult.
